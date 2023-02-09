@@ -1,0 +1,96 @@
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://fotouz.uz/uploads/posts/2019-09/thumbs/1569703349_ez-_-ez-fasli-_-yoz-_-yoz-fasli-_-leto-_-summer-16.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.submit {
+    padding: 10px;
+    border: 1px solid #808080;
+    border-radius: 10px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.vaqt {
+   
+    height: 100vh;
+    
+   
+}
+
+.vaqt__hero {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.vaqt__heading {
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.vaqt__label {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.vaqt__input {
+    width: 500px;
+    font-size: 16px;
+}
+
+.vaqt__button {
+    background-color: #007bff;
+}
+
+.vaqt__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.vaqt__items-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.vaqt__wrapper {
+    margin: 0 auto;
+}
